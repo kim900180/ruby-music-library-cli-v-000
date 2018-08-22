@@ -14,7 +14,6 @@ class Song
 
   def artist
     artist.add_song(self)
-    artist
   end
 
   def self.create(name)
