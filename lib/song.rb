@@ -38,4 +38,8 @@ class Song
   def self.destroy_all
     self.all.clear
   end
+
+  def self.find_by_name(name)
+  all.detect{ |s| s.name == name }
+end
 end
