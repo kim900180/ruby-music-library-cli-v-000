@@ -30,4 +30,8 @@ class Genre
     self.all.clear
   end
 
+  def artist
+    songs.collect{ |song| song.genre }.uniq
+  end
+
 end
