@@ -12,6 +12,10 @@ class Genre
     @@all << self
   end
 
+  def songs
+    @songs
+  end
+
   def self.create(name)
     @name = name
     @@all << self
