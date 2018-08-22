@@ -21,7 +21,6 @@ class Artist
       song.artist = self
       songs << song
     end
-
     # song.artist = self unless song.artist
     # songs << song unless songs.include?(song)
   end
