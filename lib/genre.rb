@@ -30,7 +30,7 @@ class Genre
     self.all.clear
   end
 
-  def artist
+  def artists
     songs.collect{ |song| song.artist }.uniq
   end
 
